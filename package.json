@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "prassistant",
+  "version": "1.0.0",
+  "description": "Check PR and provide an solution",
+  "main": "index.js",
+  "scripts": {
+    "check:pr": "npx ts-node-esm ./src/index.ts"
+  },
+  "author": "Nicolas Diarra",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "openai": "^4.12.1"
+  }
+}
